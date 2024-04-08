@@ -113,13 +113,3 @@ chown -R ec2-user:apache /var/www # Change owner to ec2-user and group to apache
 chmod 2775 /var/www # Set the directory permissions
 find /var/www -type d -exec chmod 2775 {} \; # Find directories and set permissions
 find /var/www -type f -exec chmod 0664 {} \; # Find files and set permissions
-
-# Set up the WordPress database and user
-#echo "CREATE DATABASE $DBName;" >> /tmp/db.setup
-#echo "CREATE USER '$DBUser'@'localhost' IDENTIFIED BY '$DBPassword';" >> /tmp/db.setup
-#echo "GRANT ALL ON $DBName.* TO '$DBUser'@'localhost';" >> /tmp/db.setup
-#echo "FLUSH PRIVILEGES;" >> /tmp/db.setup
-#mysql -u root --password=$DBRootPassword < /tmp/db.setup # Apply the database setup
-# mysql -h db-instance2.cf486eu8yupv.us-west-2.rds.amazonaws.com -P 3306  -u main  vijayadb1 --password=$DBPassword < /tmp/db.setup # Apply the database setup
-
-#sudo rm /tmp/db.setup # Clean up the temporary setup file
