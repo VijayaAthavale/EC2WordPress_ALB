@@ -2,6 +2,7 @@
 
 ## Scalable and Fault-tolerant WordPress Website on AWS
 
+
 [!Wordpress](/picture/CapstoneProject.jpg)
 
 A turnkey solution for deploying a scalable and fault-tolerant WordPress website on AWS using VS Code, Terraform, Git, and GitHub.
