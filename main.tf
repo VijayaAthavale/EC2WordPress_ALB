@@ -176,7 +176,7 @@ resource "aws_route_table" "private_rt" {
 resource "aws_route" "private_route" {
   route_table_id = aws_route_table.private_rt.id
   destination_cidr_block = var.CIDR_BLOCK
-  gateway_id = aws_internet_gateway.dev_igw.id
+  
 }
 #Associate Private Subnet1 with Route Table
 resource "aws_route_table_association" "private_rt_association" {
