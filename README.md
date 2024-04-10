@@ -2,10 +2,9 @@
 
 ## Scalable and Fault-tolerant WordPress Website on AWS
 
+![Wordpress](/picture/CapstoneProject.jpg)
 
-[!Wordpress](/picture/CapstoneProject.jpg)
-
-A turnkey solution for deploying a scalable and fault-tolerant WordPress website on AWS using VS Code, Terraform, Git, and GitHub.
+Crafting a resilient and scalable WordPress solution, by utilizing EC2 instances, Application Load Balancer (ALB), Auto Scaling Group (ASG), and Relational Database Service (RDS) to ensure high availability, scalability, and efficient resource management using VS Code, Terraform, Git, and GitHub.
 
 The solution would use the following tools:
 
